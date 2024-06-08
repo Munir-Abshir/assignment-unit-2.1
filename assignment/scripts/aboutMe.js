@@ -67,6 +67,14 @@ console.log(result);
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 
+let diceRoll = 'Try again later.';
+
+if (luckyNumber == 2 && adventurous == true) {
+  diceRoll = 'Roll the dice!';
+}
+
+console.log(diceRoll);
+
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -77,6 +85,21 @@ console.log(result);
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
 
+
+let petStatus;
+
+if (pets < allowedPets) {
+petStatus = 'I can have more pets';
+}
+if (pets == allowedPets) {
+  petStatus = "I have enough pets";
+}
+if (pets > allowedPets) {
+  petStatus = "Oh no, I have too many pets!";
+}
+
+console.log(petStatus);
+
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
@@ -84,6 +107,11 @@ console.log(result);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+
+let mostPets;
+
+
+
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -95,7 +123,6 @@ console.log(result);
 //      console.log `luckyResult` after the conditional has run.
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-
 
 
 
