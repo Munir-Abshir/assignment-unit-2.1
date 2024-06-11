@@ -51,15 +51,17 @@ let allowedPets = 7;
 
 let result;
 
+
 if (adventurous == true) {
-result = 'Adventures are great!';
-}
+  result = 'Adventures are great!';
+  }
+  
+  if (adventurous != true){
+  result = 'How about we stay home?'
+  }
+  
+  console.log(result);
 
-if (adventurous != true){
-result = 'How about we stay home?'
-}
-
-console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
@@ -149,7 +151,13 @@ switch (luckyNumber){
 
 console.log(luckyResult);
 
+
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+
+  
+// result = adventurous ? "Adventures are great!" : "How about we stay home?" 
+// console.log(result) 
+// tested it out
 
 
 
